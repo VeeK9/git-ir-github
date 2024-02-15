@@ -5,8 +5,12 @@ body {
 
 section {
   padding: 20px 30px;
+}
 
-  > a {
+a {
+  color: white;
+
+  &:visited, &:active {
     color: white;
   }
 }
