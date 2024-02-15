@@ -38,6 +38,26 @@
                 Pull Request dar galima suteikti "Reiquire approvals", kuris reikalauja, kad nurodytas kiekis kitu projekto dalyviu patvirtintu Pull Request'a.
             </p>
         </section>
+        <section>
+            <h1>Eiliskumas Pull Request</h1>
+            <ol>
+                <li>Susikurti nauja saka - git branch newBranchName</li>
+                <li>Nueiti i ta nauja saka - git checkout newBranchName</li>
+                <li>Atlieki uzduoti, kuria apsiemei padaryti
+                    <ol>
+                        <li>Add'ini pakitusius failus - git add .</li>
+                        <li>Commit'ini pakitimus - git commit -m "zinute apie pakitimus"</li>
+                    </ol>
+                </li>
+                <li>Nueini i main|master saka - git checkout main|master</li>
+                <li>Atnaujini main|master saka - git pull</li>
+                <li>Grizti i ta nauja saka - git checkout newBranchName</li>
+                <li>Sujungi savo saka su main|master ir issprendi galimai atsiradusius confliktus - git merge main|master</li>
+                <li>Nusiunti tos naujos sakos pakitimus i GitHub'a - git push</li>
+                <li>GitHub'e sukurti Pull Request'a</li>
+                <li>Kiti komandos nariai patvirtina arba atmeta ta Pull Request'a</li>
+            </ol>
+        </section>
     </main>
 </body>
 
