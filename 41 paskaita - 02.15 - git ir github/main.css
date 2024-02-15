@@ -5,4 +5,8 @@ body {
 
 section {
   padding: 20px 30px;
+
+  > a {
+    color: white;
+  }
 }
